@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore traditional homemade Indian flavours at Nanna's Kitchen.">
+  <title>Product | Nanna's Kitchen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topline"><div class="topline-track"><span>♡ Homemade with love</span><i>✦</i><span>Authentic Indian flavours, delivered to your door</span><i>✦</i><span>Explore pickles, snacks & traditional sweets</span><i>✦</i><span aria-hidden="true">♡ Homemade with love</span><i aria-hidden="true">✦</i><span aria-hidden="true">Authentic Indian flavours, delivered to your door</span><i aria-hidden="true">✦</i><span aria-hidden="true">Explore pickles, snacks & traditional sweets</span><i aria-hidden="true">✦</i></div></div>
+  <header class="header">
+    <a class="brand" href="index.html"><span class="brand-mark">N</span><span><b>Nanna's Kitchen</b><small>HOMEMADE INDIAN GOODNESS</small></span></a>
+    <nav class="nav"><a href="index.html#home">Home</a><a href="index.html#categories">Shop</a><a href="index.html#story">Our Story</a><a href="index.html#contact">Contact</a></nav>
+    <div class="head-actions"><label class="country-select"><span>Deliver to</span><select id="country"><option value="uk">🇬🇧 United Kingdom</option><option value="india">🇮🇳 India</option><option value="usa">🇺🇸 USA</option><option value="canada">🇨🇦 Canada</option></select></label><a class="account-link" href="account.html" aria-label="Customer account">Account</a><button class="cart-btn" id="openCart">Cart <span id="cartCount">0</span></button><button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button></div>
+  </header>
+  <main class="pdp-main" id="pdpRoot">
+    <div class="breadcrumbs"><a href="index.html">Home</a> / <a href="index.html#categories">Shop</a> / <span id="crumbProduct">Product</span></div>
+    <section class="pdp-layout">
+      <div class="pdp-image"><img id="pdpImage" src="" alt=""><span class="natural-badge pdp-natural-badge">✦ 100% Natural*</span></div>
+      <div class="pdp-info"><span class="pdp-category" id="pdpCategory"></span><h1 id="pdpName">Product</h1><div class="pdp-price" id="pdpPrice"></div><span class="natural-copy">Homemade goodness · Made with care</span><p class="pdp-description" id="pdpDescription"></p>
+        <div class="pdp-meta"><div><small>Category</small><b id="pdpMetaCategory"></b></div><div><small>Pack size / weight</small><b>To be confirmed</b></div><div><small>Availability</small><b>Confirm at order</b></div><div><small>Store</small><b id="pdpStore">United Kingdom</b></div></div>
+        <div class="pdp-buy"><div class="pdp-qty"><button type="button" id="qtyMinus" aria-label="Decrease quantity">−</button><input id="pdpQty" type="number" min="1" value="1" aria-label="Quantity"><button type="button" id="qtyPlus" aria-label="Increase quantity">+</button></div><button class="button primary" id="pdpAdd">Add to basket</button></div>
+        <p class="pdp-note">*Natural label is a design placeholder and must only be used where product ingredients and preparation support the claim. Product photographs and descriptions are representative preview content. Confirm final ingredients, pack weight, availability and local pricing with Nanna's Kitchen before placing an order.</p><a class="pdp-back" href="index.html#products">← Continue shopping</a>
+      </div>
+    </section>
+    <section class="section" style="padding:65px 0 0"><p class="eyebrow">YOU MAY ALSO LIKE</p><h2>More from <em>our kitchen.</em></h2><div class="product-grid" id="relatedProducts"></div></section>
+  </main>
+  <footer id="contact"><div class="footer-bottom"><span>© 2026 Nanna's Kitchen. All rights reserved.</span><span>Made with care ♡</span></div></footer>
+  <div class="cart-overlay" id="cartOverlay"><aside class="cart-panel"><div class="cart-head"><h3>Your basket</h3><button id="closeCart" aria-label="Close cart">✕</button></div><div id="cartItems" class="cart-items"><p class="empty">Your basket is waiting for something delicious.</p></div><div class="cart-bottom"><div class="total"><span>Subtotal</span><b id="cartTotal">£0.00</b></div><p>Delivery charges and stock will be confirmed by Nanna's Kitchen.</p><input id="customerName" placeholder="Your name"><textarea id="customerAddress" placeholder="Delivery address"></textarea><button class="button primary full" id="whatsappOrder">Order via WhatsApp ↗</button><small class="whatsapp-hint">WhatsApp number will be connected before launch.</small></div></aside></div>
+  <a class="whatsapp-float" id="floatingWhatsApp" href="#" aria-label="Chat with Nanna's Kitchen on WhatsApp" title="Chat on WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16.04 3C8.9 3 3.1 8.78 3.1 15.9c0 2.28.6 4.5 1.74 6.46L3 29l6.82-1.78a13 13 0 0 0 6.21 1.58h.01c7.13 0 12.93-5.79 12.93-12.91 0-3.45-1.34-6.7-3.78-9.14A12.85 12.85 0 0 0 16.04 3Zm0 23.6h-.01a10.7 10.7 0 0 1-5.45-1.5l-.39-.23-4.05 1.06 1.08-3.95-.25-.4a10.65 10.65 0 0 1-1.64-5.68c0-5.9 4.81-10.7 10.72-10.7 2.86 0 5.55 1.12 7.57 3.14a10.63 10.63 0 0 1 3.14 7.57c0 5.9-4.81 10.69-10.72 10.69Zm5.88-8.01c-.32-.16-1.9-.94-2.2-1.05-.3-.1-.51-.16-.73.16-.21.32-.83 1.05-1.02 1.27-.19.21-.38.24-.7.08-.32-.16-1.36-.5-2.6-1.6-.96-.85-1.61-1.9-1.8-2.22-.19-.32-.02-.49.14-.65.14-.14.32-.38.48-.57.16-.19.21-.32.32-.54.1-.21.05-.4-.03-.56-.08-.16-.73-1.75-1-2.4-.26-.63-.53-.54-.73-.55h-.62c-.21 0-.56.08-.86.4-.3.32-1.13 1.1-1.13 2.68s1.16 3.1 1.32 3.32c.16.21 2.28 3.48 5.52 4.88.77.33 1.37.53 1.84.68.77.24 1.47.2 2.02.12.62-.09 1.9-.78 2.17-1.53.27-.75.27-1.4.19-1.53-.08-.14-.3-.22-.62-.38Z"/></svg><span>WhatsApp</span></a>
+  <script src="script.js"></script><script src="pdp.js"></script>
+</body></html>
