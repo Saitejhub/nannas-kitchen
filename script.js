@@ -15,7 +15,7 @@ const countries={uk:{symbol:'£',code:'GBP',name:'United Kingdom'},india:{symbol
 let country=localStorage.getItem('nk-country')||'uk',filter=null,visibleLimit=12,cart=JSON.parse(localStorage.getItem('nk-cart')||'[]');
 // Add the business WhatsApp number here using country code + number, digits only (no +, spaces or dashes).
 // Example format only: 447700900123. The real Nanna's Kitchen number has not yet been supplied.
-const WHATSAPP_NUMBER = '';
+const WHATSAPP_NUMBER = '+44 7747 264350';
 const $=s=>document.querySelector(s);
 function money(v){return country==='uk'?countries[country].symbol+Number(v).toFixed(2):countries[country].symbol+' — price to be confirmed'}
 function saveCart(){localStorage.setItem('nk-cart',JSON.stringify(cart));localStorage.setItem('nk-country',country)}
